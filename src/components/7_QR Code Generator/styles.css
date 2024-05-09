@@ -1,0 +1,37 @@
+.qr-code-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px; 
+}
+
+.qr-code-container h1{
+    overflow: hidden;
+}
+
+.qr-code-container input {
+    width: 80%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.qr-code-container button {
+    padding: 8px 16px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.qr-code-container button:hover {
+    background-color: #0056b3;
+}
+
+.qr-code-container #qr-code-value {
+    margin-top: 20px;
+}

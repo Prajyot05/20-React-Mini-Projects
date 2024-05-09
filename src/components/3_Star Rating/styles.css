@@ -1,0 +1,18 @@
+.star-rating{
+  height: 20vh;
+  width: 100%;
+}
+
+.active {
+    color: #fff700;
+  }
+  
+.inactive {
+  color: #000000;
+}
+
+.star-rating{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
